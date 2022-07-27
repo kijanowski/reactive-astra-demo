@@ -1,0 +1,32 @@
+{
+  "type": "record",
+  "name": "LiveValue",
+  "namespace": "reactive.demo.pojos.vectors",
+  "doc": "Table 39343739613763322d316235302d346231612d623661642d393532353832363166303536_vectors.live",
+  "fields": [
+    {
+      "name": "altitude",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null
+    },
+    {
+      "name": "longitude",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null
+    },
+    {
+      "name": "latitude",
+      "type": [
+        "null",
+        "float"
+      ],
+      "default": null
+    }
+  ]
+}

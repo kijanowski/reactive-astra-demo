@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "LiveKey",
+  "namespace": "reactive.demo.pojos.vectors",
+  "doc": "Table 39343739613763322d316235302d346231612d623661642d393532353832363166303536_vectors.live",
+  "fields": [
+    {
+      "name": "icao24",
+      "type": "string"
+    },
+    {
+      "name": "callsign",
+      "type": "string"
+    },
+    {
+      "name": "time_position",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ],
+      "default": null
+    }
+  ]
+}
